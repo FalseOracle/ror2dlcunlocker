@@ -25,20 +25,15 @@ This guide describes using a third-party DLC unlocker. This violates Steam's Sub
 
 ## Step-by-Step Installation (Recommended: Self-Hook Mode with version.dll)
 
-1. **Extract files**  
-   You need:  
-   - `smoke_api64.dll` (64-bit version — Risk of Rain 2 is 64-bit)
-
-2. **Locate game folder**  
+1. **Locate game folder**  
    Default path for most users:  
    `C:\Program Files (x86)\Steam\steamapps\common\Risk of Rain 2`
-
-3. **Install using Self-Hook (most stable method)**  
-   - Copy `version.dll` into the game folder (next to `Risk of Rain 2.exe`)  
+   
+2. **Extract files**  
+   You need:  
+   - `smoke_api64.dll`
+   - `SmokeAPI.config.json`
+   - `libsmoke_api64.so`
+Copy into the game folder (next to `Risk of Rain 2.exe`)  
    → **Do NOT** replace or touch original `steam_api64.dll`!
    → In the same game folder move file **`SmokeAPI.config.json`**  
-
-
-4. **Create configuration file**  
-   
-
