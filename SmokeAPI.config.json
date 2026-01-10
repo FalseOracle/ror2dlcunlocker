@@ -1,0 +1,15 @@
+{
+  "$schema": "https://raw.githubusercontent.com/acidicoala/SmokeAPI/refs/tags/v4.0.0/res/SmokeAPI.schema.json",
+  "$version": 4,
+  "logging": true,
+  "log_steam_http": false,
+  "default_app_status": "unlocked",
+  "override_app_status": {
+    "1607890": "unlocked",
+    "2306620": "unlocked",
+    "2781620": "unlocked",
+    "1236890": "unlocked",
+    "1905390": "unlocked",
+    "3055680": "unlocked"
+  }
+}
