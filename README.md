@@ -2,7 +2,7 @@
 
 **Last updated:** January 10, 2026  
 **Game version compatibility:** Works with current game build (post-Alloyed Collective release)  
-**Tool:** SmokeAPI v4.1.x (latest stable as of early 2025)
+**Tool:** SmokeAPI v4.0.x / 4.1.x
 
 **Important legal notice**  
 This guide describes using a third-party DLC unlocker. This violates Steam's Subscriber Agreement. Use at your own risk — possible consequences include Steam account restrictions (rare for single-player games), issues with updates, or loss of online features.  
@@ -25,38 +25,20 @@ This guide describes using a third-party DLC unlocker. This violates Steam's Sub
 
 ## Step-by-Step Installation (Recommended: Self-Hook Mode with version.dll)
 
-1. **Download official SmokeAPI**  
-   Go to: https://github.com/acidicoala/SmokeAPI/releases  
-   Download the latest version (v4.1.x ZIP file — e.g. `SmokeAPI-v4.1.2.zip`)
-
-2. **Extract files**  
+1. **Extract files**  
    You need:  
    - `smoke_api64.dll` (64-bit version — Risk of Rain 2 is 64-bit)
 
-3. **Locate game folder**  
-   Default path:  
+2. **Locate game folder**  
+   Default path for most users:  
    `C:\Program Files (x86)\Steam\steamapps\common\Risk of Rain 2`
 
-4. **Install using Self-Hook (most stable method)**  
-   - Rename `smoke_api64.dll` → **`version.dll`** (this is the recommended and most reliable name)  
+3. **Install using Self-Hook (most stable method)**  
    - Copy `version.dll` into the game folder (next to `Risk of Rain 2.exe`)  
    → **Do NOT** replace or touch original `steam_api64.dll`!
+   → In the same game folder move file **`SmokeAPI.config.json`**  
 
-5. **Create configuration file**  
-   In the same game folder create new text file named exactly:  
-   **`SmokeAPI.config.json`**  
 
-   Paste the following content and save (use Notepad, encoding UTF-8):
+4. **Create configuration file**  
+   
 
-   ```json
-   {
-     "$schema": "https://raw.githubusercontent.com/acidicoala/SmokeAPI/refs/tags/v4.1.2/res/SmokeAPI.schema.json",
-     "$version": 4,
-     "logging": true,
-     "default_app_status": "unlocked",
-     "override_dlc_status": {
-       "1607890": "unlocked",
-       "2306620": "unlocked",
-       "2781620": "unlocked"
-     }
-   }
