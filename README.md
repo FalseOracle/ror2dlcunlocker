@@ -30,10 +30,11 @@ This guide describes using a third-party DLC unlocker. This violates Steam's Sub
    `C:\Program Files (x86)\Steam\steamapps\common\Risk of Rain 2`
    
 2. **Extract files**  
-   You need:  
+   You need all this files:  
    - `smoke_api64.dll`
    - `SmokeAPI.config.json`
    - `libsmoke_api64.so`
 Copy into the game folder (next to `Risk of Rain 2.exe`)  
-   → **Do NOT** replace or touch original `steam_api64.dll`!
-   → In the same game folder move file **`SmokeAPI.config.json`**  
+**Do NOT** replace or touch original `steam_api64.dll`!
+
+Enjoy to play!
