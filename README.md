@@ -1,20 +1,21 @@
 # Risk Of Rain 2 | DLC Unlocker via SmokeAPI (Windows Guide)
 
-**Last updated:** January 10, 2026  
-**Game version compatibility:** Works with current game build (post-Alloyed Collective release)  
+**Last updated:** November 10, 2026  
+**Game version compatibility:** Works with current game build (post-Hallowed Concepts release)  
 **Tool:** SmokeAPI v4.0.x / 4.1.x
 
 **Important legal notice**  
 This guide describes using a third-party DLC unlocker. This violates Steam's Subscriber Agreement. Use at your own risk — possible consequences include Steam account restrictions (rare for single-player games), issues with updates, or loss of online features.  
 **All files of DLCs are already bundled in the base game** — no additional downloading is required after unlocking.
 
-## Current DLCs (January 2026)
+## Current DLCs (November 2026)
 
 | DLC                        | AppID    | Release Date       | Main Content                              |
 |----------------------------|----------|--------------------|-------------------------------------------|
 | Survivors of the Void      | 1607890  | March 1, 2022      | Void Fiend, new stages, void items, etc.  |
 | Seekers of the Storm       | 2306620  | August 27, 2024    | False Son, new survivors, items, stages   |
 | Alloyed Collective         | 2781620  | November 18, 2025  | Operator + Drifter, drones, new stages, bosses |
+| Hallowed Concepts          | 3055670  | October 8, 2026    | Acolyte, Enforcer, N'kuhana themed content, Hexes and Hallowed item tiers |
 
 ## Requirements
 
@@ -30,12 +31,13 @@ This guide describes using a third-party DLC unlocker. This violates Steam's Sub
    `C:\Program Files (x86)\Steam\steamapps\common\Risk of Rain 2`
    
 2. **Extract files**  
-   You need all this files:  
+   You need all these files:  
    - `smoke_api64.dll`
    - `SmokeAPI.config.json`
    - `libsmoke_api64.so`
-Copy into the game folder (next to `Risk of Rain 2.exe`)  
+   
+   Copy them into the game folder (next to `Risk of Rain 2.exe`)  
 
-**Do NOT** replace or touch original `steam_api64.dll`!
+**Do NOT** replace or touch the original `steam_api64.dll`!
 
-Enjoy to play!
+Enjoy playing!
